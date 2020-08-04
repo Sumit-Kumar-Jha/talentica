@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+     - robertdebock.jenkins
+     - lrk.prometheus

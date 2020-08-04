@@ -1,1 +1,4 @@
 # talentica
+<br>1. Arichitecture of application with Google cloud is really simple. Go through the Presentation first. It's assumed that jar fire is converted into war file named petclinic.war file </br>
+<br>2. From Docker file, you will create the image for Pet clinic app. Execute.sh file is included in docker file to run mysql cloud proxy in parallel to web application.</br>
+<br>3. main.tf file will create the VM in google cloud, with installed Ansible. Once Ansible will be installed, it will firstly download the required role for Jenkins and Monitoring agent Prometheus. However No monitoring agent is required if you are deploying your container based application on google cloud, as you can monitor maximum parameters of container from cloud run console itself. So installing Prometheius from playbook is of NO USE. </br>  
